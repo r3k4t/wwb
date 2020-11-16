@@ -15,7 +15,7 @@
 Block Adult or Unwanted Websites on windows.It is a easy  way to block adult website.Adult websites are dangerous for our young generation.I want to stop it.
 
 
-### Script(Conecpt) ###
+# Script(Conecpt) 
 
 
 import os
@@ -28,15 +28,15 @@ from datetime import datetime as dt
  <br>
 os.system("cls")
 <br>
-# change hosts path according to your OS
+### change hosts path according to your OS ###
  <br>
 hostsPath = r"C:\Windows\System32\drivers\etc\hosts"
 
-# localhost's IP 
+### localhost's IP ### 
 <br>
 redirect = "127.0.0.1"
  <br>
-# websites That you want to block
+### websites That you want to block ###
  <br>
 web_list=["facebook.com","https://facebook.com"]
 <br>
@@ -61,7 +61,7 @@ while True:
 
                 else: 
                   <br>
-                    # mapping hostnames to your localhost IP address
+                  ### mapping hostnames to your localhost IP address ###
                     <br> 
                     file.write(redirect + " " + website + "\n")
                     <br> 
