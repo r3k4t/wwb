@@ -1,5 +1,5 @@
 
-[![python](https://img.shields.io/badge/Program-python-cyan.svg)](https://www.python.org/)
+[![python](https://img.shields.io/badge/Program-Python-cyan.svg)](https://www.python.org/)
 [![OS](https://img.shields.io/badge/Tested%20On-WindowsCmd-cyan.svg)](https://en.wikipedia.org/wiki/Cmd.exe)
 
 # Windows Website Blocker(WWB)
